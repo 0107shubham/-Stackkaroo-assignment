@@ -319,9 +319,8 @@ const Hiring = () => {
         <div className="svg-container-mbl">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="900"
-            height="750"
-            viewBox="0 0 1200 900"
+            width="350"
+            height="300"
             fill="none"
           >
             {/* Set 1 */}
@@ -388,9 +387,8 @@ const Hiring = () => {
         <div className="svg-container-mbl">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="900"
-            height="750"
-            viewBox="0 0 1200 900"
+            width="350"
+            height="300"
             fill="none"
           >
             {/* Set 1 */}
@@ -454,9 +452,8 @@ const Hiring = () => {
         <div className="svg-container-mbl">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="900"
-            height="750"
-            viewBox="0 0 1200 900"
+            width="350"
+            height="300"
             fill="none"
           >
             {/* Set 1 */}
@@ -520,9 +517,8 @@ const Hiring = () => {
         <div className="svg-container-mbl">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="900"
-            height="750"
-            viewBox="0 0 1200 900"
+            width="350"
+            height="300"
             fill="none"
           >
             {/* Set 1 */}
@@ -586,9 +582,8 @@ const Hiring = () => {
         <div className="svg-container-mbl">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="900"
-            height="750"
-            viewBox="0 0 1200 900"
+            width="350"
+            height="300"
             fill="none"
           >
             {/* Set 1 */}

@@ -6,6 +6,7 @@ import Benefits from "../components/Benefits";
 import TalentCategory2 from "../components/TalentCategory2";
 import Flexibility from "../components/Flexibility";
 import Pricing from "../components/Pricing";
+import "./globals.css";
 export default function Home() {
   return (
     <div>

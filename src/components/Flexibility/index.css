@@ -69,7 +69,14 @@
   letter-spacing: 0.44px;
 }
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 375px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
   .flex-bg-containerr {
     background: linear-gradient(
       94deg,
