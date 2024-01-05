@@ -121,9 +121,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
+
     width: 375px;
     background-color: white;
+    height: 105px;
   }
 
   .mb-header-imag {
