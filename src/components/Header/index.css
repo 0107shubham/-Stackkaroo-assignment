@@ -1,0 +1,205 @@
+.bg-container {
+  background: linear-gradient(
+    180deg,
+    rgba(10, 86, 241, 0.15) 0%,
+    rgba(10, 86, 241, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+
+  width: 100wh;
+  height: 828px;
+  flex-shrink: 0;
+}
+
+.mb-upper-header {
+  display: none;
+}
+.image {
+  width: 813.604px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+.heading {
+  color: #0a56f1;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: Outfit;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.heading2 {
+  color: #36454f;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Outfit;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.25px;
+}
+
+.para1 {
+  color: #36454f;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.33px;
+}
+
+.job-btn {
+  color: #fff;
+
+  text-align: center;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 25px;
+  background: #e68f50;
+  width: 170px;
+  height: 45px;
+  flex-shrink: 0;
+  color: #fff;
+
+  text-align: center;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 900px) {
+  .bg-container {
+    background: linear-gradient(
+      180deg,
+      rgba(10, 86, 241, 0.15) 0%,
+      rgba(10, 86, 241, 0) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 80vh;
+    width: 100wh;
+
+    flex-shrink: 0;
+  }
+
+  .image {
+    width: 80%;
+    height: 230.456px;
+    flex-shrink: 0;
+  }
+
+  .mb-upper-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 80wh;
+    background-color: white;
+  }
+
+  .mb-header-imag {
+    width: 84.545px;
+    height: 25px;
+    flex-shrink: 0;
+  }
+
+  .heading {
+    color: #0a56f1;
+
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.45px;
+    margin: 10px;
+  }
+
+  .heading2 {
+    color: #36454f;
+
+    text-align: center;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin: 10px;
+  }
+
+  .para1 {
+    color: #36454f;
+
+    text-align: center;
+    font-family: Outfit;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.39px;
+    margin: 10px;
+  }
+
+  .job-btn {
+    color: #fff;
+
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.42px;
+  }
+
+  .btn {
+    border-radius: 50px;
+    background: #e68f50;
+    width: 135px;
+    height: 35px;
+
+    flex-shrink: 0;
+    color: #fff;
+
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-top: 43px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 40px;
+  }
+}

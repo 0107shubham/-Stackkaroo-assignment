@@ -1,0 +1,221 @@
+.bf-bg-container {
+  background: linear-gradient(
+    94deg,
+    rgba(10, 86, 241, 0.1) 3.38%,
+    rgba(230, 143, 80, 0.1) 96.62%
+  );
+  width: 100wh;
+  height: ;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bn-top-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.b-para1 {
+  color: #e68f50;
+
+  text-align: center;
+  font-family: Outfit;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.875px;
+}
+.b-para-2 {
+  color: #36454f;
+
+  text-align: center;
+  font-family: Outfit;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.625px;
+}
+
+.bn-bg-card-container {
+  border-radius: 25px;
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+
+  width: 1280px;
+  height: 868px;
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.mb-bn-bg-card-container {
+  display: none;
+}
+.list {
+  list-style-type: circle;
+  margin-left: 40px;
+  color: #0a56f1;
+
+  font-family: Outfit;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.75px;
+}
+
+.box {
+  width: 590px; /* Adjust width as needed, considering margin and padding */
+  margin: 1%; /* Adjust margin as needed */
+  background-color: transparent;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.para-con {
+  margin-top: 50px;
+  margin-left: 5px;
+}
+.bf-card-heading {
+  color: #0a56f1;
+
+  font-family: Outfit;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.75px;
+}
+.bf-card-para {
+  color: #36454f;
+
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.45px;
+}
+
+@media screen and (max-width: 728px) {
+  .bf-bg-container {
+    background: linear-gradient(
+      94deg,
+      rgba(10, 86, 241, 0.1) 3.38%,
+      rgba(230, 143, 80, 0.1) 96.62%
+    );
+    width: 375px;
+    height: 800px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mb-bn-bg-card-container {
+    display: block;
+  }
+
+  .bn-top-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .b-para1 {
+    color: #e68f50;
+    width: 343px;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .b-para-2 {
+    color: #36454f;
+
+    text-align: center;
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.45px;
+  }
+
+  .bn-bg-card-container {
+    border-radius: 25px;
+    background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+
+    width: 1280px;
+    height: 868px;
+    flex-shrink: 0;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .list {
+    list-style-type: circle;
+    margin-left: 40px;
+    color: #0a56f1;
+
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.75px;
+  }
+
+  .box {
+    width: 590px;
+    margin: 1%;
+    background-color: transparent;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .bf-card-heading {
+    color: #0a56f1;
+
+    text-align: center;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+  }
+  .bf-card-para {
+    color: #000;
+    width: 343px;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.325px;
+  }
+}
