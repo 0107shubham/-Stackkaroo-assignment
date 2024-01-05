@@ -105,13 +105,13 @@
     align-items: center;
 
     height: 80vh;
-    width: 100wh;
+    width: 375px;
 
     flex-shrink: 0;
   }
 
   .image {
-    width: 80%;
+    width: 375px;
     height: 230.456px;
     flex-shrink: 0;
   }
@@ -122,7 +122,7 @@
     justify-content: space-between;
     align-items: center;
     height: 5rem;
-    width: 80wh;
+    width: 375px;
     background-color: white;
   }
 
