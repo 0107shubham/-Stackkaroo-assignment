@@ -37,6 +37,11 @@ const Header = () => {
             src="https://res.cloudinary.com/drvjsegeb/image/upload/v1704104535/image1_cih1fw.png"
             alt="Image1"
           />
+          <img
+            className="image-mbl"
+            src="https://res.cloudinary.com/drvjsegeb/image/upload/v1704446241/1673600177315_1_wndkbt.png"
+            alt="Image1"
+          />
         </div>
 
         <h1 className="heading">Experience Seamless Hiring</h1>

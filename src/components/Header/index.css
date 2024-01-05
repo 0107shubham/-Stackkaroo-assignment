@@ -23,6 +23,9 @@
   height: 500px;
   flex-shrink: 0;
 }
+.image-mbl {
+  display: none;
+}
 
 .heading {
   color: #0a56f1;
@@ -111,9 +114,13 @@
   }
 
   .image {
+    display: none;
+  }
+  .image-mbl {
     width: 375px;
     height: 230.456px;
     flex-shrink: 0;
+    display: block;
   }
 
   .mb-upper-header {
