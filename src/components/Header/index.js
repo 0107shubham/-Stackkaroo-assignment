@@ -3,7 +3,7 @@ import "./index.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="bg-container">
       <div className="mb-upper-header">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -30,19 +30,17 @@ const Header = () => {
           alt=""
         />
       </div>
-      <div className="bg-container">
-        <div>
-          <img
-            className="image"
-            src="https://res.cloudinary.com/drvjsegeb/image/upload/v1704104535/image1_cih1fw.png"
-            alt="Image1"
-          />
-          <img
-            className="image-mbl"
-            src="https://res.cloudinary.com/drvjsegeb/image/upload/v1704446241/1673600177315_1_wndkbt.png"
-            alt="Image1"
-          />
-        </div>
+      <div className="header-card-container">
+        <img
+          className="image"
+          src="https://res.cloudinary.com/drvjsegeb/image/upload/v1704104535/image1_cih1fw.png"
+          alt="Image1"
+        />
+        <img
+          className="image-mbl"
+          src="https://res.cloudinary.com/drvjsegeb/image/upload/v1704446241/1673600177315_1_wndkbt.png"
+          alt="Image1"
+        />
 
         <h1 className="heading">Experience Seamless Hiring</h1>
         <p className="heading2">
