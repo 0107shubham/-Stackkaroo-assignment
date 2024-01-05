@@ -108,7 +108,7 @@
   letter-spacing: 0.45px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 728px) {
   body {
     margin: 0;
     padding: 0;
