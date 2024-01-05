@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import image1 from "../../resources/image1.png";
 
 const Header = () => {
   return (
@@ -28,6 +27,7 @@ const Header = () => {
         <img
           className="mb-header-imag"
           src="https://res.cloudinary.com/drvjsegeb/image/upload/v1704295319/Stackkaroo-removebg-preview_1_flbqfk.png"
+          alt=""
         />
       </div>
       <div className="bg-container">

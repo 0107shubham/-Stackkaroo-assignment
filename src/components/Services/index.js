@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import talent from "../../resources/talenet-matchmaker.png";
+
 const Services = () => {
   return (
     <div className="bg-containerr">
