@@ -23,15 +23,28 @@ const Services = () => {
         </div>
         <div className="container">
           <img
-            src="https://res.cloudinary.com/drvjsegeb/image/upload/v1704109483/talenet-matchmaker_qolzoc.png"
+            src="https://res.cloudinary.com/drvjsegeb/image/upload/v1704109497/easy-hiring_cj3nxr.png"
             alt="Image"
             className="img"
           />
-          <p className="ser-con-para1">Talent Matchmaker</p>
+          <p className="ser-con-para1">Easy Hiring</p>
           <p className="ser-con-para2">
-            STACKKAROO is a platform for identifying Indian talent for global
-            companies seeking remote workers. It considers skills, experience,
-            preferences, availability to find the best match.
+            We help with hiring, including interviews, negotiations, contracts,
+            and onboarding. Indian talent and the company receive support during
+            recruitment.
+          </p>
+        </div>
+
+        <div className="container">
+          <img
+            src="https://res.cloudinary.com/drvjsegeb/image/upload/v1704109728/longtern-relation_xlpgfi.png"
+            alt="Image"
+            className="img"
+          />
+          <p className="ser-con-para1">Affordability</p>
+          <p className="ser-con-para2">
+            The company pays a fee for talent hire based on salary and role
+            difficulty. The talent is not charged a fee.
           </p>
         </div>
 
@@ -41,25 +54,11 @@ const Services = () => {
             alt="Image"
             className="img"
           />
-          <p className="ser-con-para1">Talent Matchmaker</p>
+          <p className="ser-con-para1">Long-Term Relationship</p>
           <p className="ser-con-para2">
-            STACKKAROO is a platform for identifying Indian talent for global
-            companies seeking remote workers. It considers skills, experience,
-            preferences, availability to find the best match.
-          </p>
-        </div>
-
-        <div className="container">
-          <img
-            src="https://res.cloudinary.com/drvjsegeb/image/upload/v1704109483/talenet-matchmaker_qolzoc.png"
-            alt="Image"
-            className="img"
-          />
-          <p className="ser-con-para1">Talent Matchmaker</p>
-          <p className="ser-con-para2">
-            STACKKAROO is a platform for identifying Indian talent for global
-            companies seeking remote workers. It considers skills, experience,
-            preferences, availability to find the best match.
+            STACKKAROO maintains good talent-org relationships by providing
+            feedback, performance appraisal, career development, and settling
+            disputes.
           </p>
         </div>
       </div>
